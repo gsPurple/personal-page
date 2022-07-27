@@ -10,7 +10,7 @@ const Header = () => {
     var trick;
 
     switch(location.pathname) {
-        case "/":
+        case "/personal-page/":
             currentPage = "home()";
             trick = 0;
             break;
@@ -61,7 +61,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/">
+                                <NavLink to="/personal-page/">
                                     <span className='hBttn'>home()</span>
                                 </NavLink>
                             </li>
