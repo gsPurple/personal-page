@@ -10,15 +10,15 @@ const Header = () => {
     var trick;
 
     switch(location.pathname) {
-        case "/personal-page/":
+        case "/":
             currentPage = "home()";
             trick = 0;
             break;
-        case "/personal-page/cv":
+        case "/cv":
             currentPage = "cv()";
             trick = 1;
             break;
-        case "/personal-page/projects":
+        case "/projects":
             currentPage = "projects()";
             trick = 2;
             break;
