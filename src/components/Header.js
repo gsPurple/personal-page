@@ -56,12 +56,12 @@ const Header = () => {
                     <nav>
                         <ul id='primary-nav' data-visible='false' className='header-nav-bttns primary-nav'>
                             <li className='active'>
-                                <NavLink to="/personal-page/cv">
+                                <NavLink to="/cv">
                                     <span className='hBttn'>cv()</span>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/personal-page/">
+                                <NavLink to="/">
                                     <span className='hBttn'>home()</span>
                                 </NavLink>
                             </li>
@@ -71,7 +71,7 @@ const Header = () => {
                                 </a>
                             </li>
                             <li>
-                                <NavLink to="/personal-page/projects">
+                                <NavLink to="/projects">
                                     <span className='hBttn'>projects()</span>
                                 </NavLink>
                             </li>
