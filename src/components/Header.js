@@ -14,11 +14,11 @@ const Header = () => {
             currentPage = "home()";
             trick = 0;
             break;
-        case "/cv":
+        case "/personal-page/cv":
             currentPage = "cv()";
             trick = 1;
             break;
-        case "/projects":
+        case "/personal-page/projects":
             currentPage = "projects()";
             trick = 2;
             break;
@@ -56,7 +56,7 @@ const Header = () => {
                     <nav>
                         <ul id='primary-nav' data-visible='false' className='header-nav-bttns primary-nav'>
                             <li className='active'>
-                                <NavLink to="/cv">
+                                <NavLink to="/personal-page/cv">
                                     <span className='hBttn'>cv()</span>
                                 </NavLink>
                             </li>
@@ -71,7 +71,7 @@ const Header = () => {
                                 </a>
                             </li>
                             <li>
-                                <NavLink to="/projects">
+                                <NavLink to="/personal-page/projects">
                                     <span className='hBttn'>projects()</span>
                                 </NavLink>
                             </li>

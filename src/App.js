@@ -19,8 +19,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/personal-page/' element={<Home />} />
-        <Route path='/cv' element={<CV />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/personal-page/cv' element={<CV />} />
+        <Route path='/personal-page/projects' element={<Projects />} />
       </Routes>
     </div>
   );
