@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.a8c6ff55.css",
-    "main.js": "/personal-page/static/js/main.340f22d3.js",
+    "main.css": "/personal-page/static/css/main.2713a005.css",
+    "main.js": "/personal-page/static/js/main.5ba09e2c.js",
     "static/media/meRedPolo.jpg": "/personal-page/static/media/meRedPolo.50b9763796356b50b040.jpg",
     "static/media/earth.png": "/personal-page/static/media/earth.920c72a0e4672e1d27e4.png",
     "index.html": "/personal-page/index.html",
     "static/media/menu-burguer.svg": "/personal-page/static/media/menu-burguer.d029c681c1dacca32e9c.svg",
     "static/media/close-icon.svg": "/personal-page/static/media/close-icon.e9c92e2f218cb25a20cc.svg",
-    "main.a8c6ff55.css.map": "/personal-page/static/css/main.a8c6ff55.css.map",
-    "main.340f22d3.js.map": "/personal-page/static/js/main.340f22d3.js.map"
+    "main.2713a005.css.map": "/personal-page/static/css/main.2713a005.css.map",
+    "main.5ba09e2c.js.map": "/personal-page/static/js/main.5ba09e2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c6ff55.css",
-    "static/js/main.340f22d3.js"
+    "static/css/main.2713a005.css",
+    "static/js/main.5ba09e2c.js"
   ]
 }
