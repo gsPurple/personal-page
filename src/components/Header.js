@@ -66,7 +66,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                <a href="https://www.w3schools.com">
+                                <a href="/contact">
                                     <span className='hBttn'>contact()</span>
                                 </a>
                             </li>
