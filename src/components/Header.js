@@ -22,6 +22,10 @@ const Header = () => {
             currentPage = "projects()";
             trick = 2;
             break;
+        case "/contact":
+            currentPage = "contact()";
+            trick = 3;
+            break;
         default:
             currentPage = "";
     }
@@ -66,9 +70,9 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                <a href="/contact">
+                                <NavLink to="/contact">
                                     <span className='hBttn'>contact()</span>
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
                                 <NavLink to="/projects">
