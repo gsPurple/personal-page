@@ -61,8 +61,8 @@ const CV = () => {
                     <div id='cv-hobbies'>
                         <h2 className='purp'>HOBBIES AND INTERESTS</h2>
                         <ul className='ul-cv'>
-                            <li>Project: "Pervasive Framework to Support Smart Therapy of Children with Special Needs"</li>
-                            <li>March - September (2022)</li>
+                            <li>Scuba Diving {'\u2022'} Rugby {'\u2022'} 3D Modelling</li>
+                            <li>Photography {'\u2022'} Space {'\u2022'} Nature Documentaries</li>
                         </ul>
                     </div>
                 </div>
