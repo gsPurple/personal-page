@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return(
-        <div className="testing">
+        <div>
             <section className='section-container'>
                 <div id="welcome-img">
                     <img id="avatar" src={require("../images/meRedPolo.jpg")} alt=""/>

@@ -1,6 +1,7 @@
 :root {
   --off-white: #FAF9F6;
   --purple: #682AE9;
+  --light-purple: #956eeb;
   --black: #0E1212;
   --active: #595959;
 }
@@ -70,6 +71,10 @@ h1 {
 
 .purp {
   color: var(--purple);
+}
+
+.light-purp {
+  color: var(--light-purple);
 }
 
 .header-nav-bttns {
@@ -179,6 +184,50 @@ a.active .hBttn {
   margin: 3rem auto;
 }
 
+#grid-cv-page {
+  display: grid;
+  margin-top: 3rem;
+  max-width: inherit;
+  grid-auto-columns: minmax(0, 1fr);
+  text-align: justify;
+  grid-template-areas:
+    "header"
+    "profile"
+    "skills"
+    "education"
+    "research"
+    "hobbies" ;
+  column-gap: 2rem;
+}
+
+#cv-header {
+  grid-area: header;
+}
+
+#cv-profile {
+  grid-area: profile;
+}
+
+#cv-education {
+  grid-area: education;
+}
+
+#cv-contacts {
+  grid-area: contacts;
+}
+
+#cv-skills {
+  grid-area: skills;
+}
+
+#cv-scholarship {
+  grid-area: research;
+}
+
+#cv-hobbies {
+  grid-area: hobbies;
+}
+
 @media screen and (max-width: 415px) {
   .section-container {
     margin: 2rem 0.5rem;
@@ -194,6 +243,21 @@ a.active .hBttn {
 
   #welcome-img {
     margin: 2rem 2rem;
+  }
+
+  #grid-cv-page {
+    display: grid;
+    margin: 2rem;
+    max-width: inherit;
+    grid-auto-columns: minmax(0, 1fr);
+    text-align: justify;
+    grid-template-areas:
+      "header header"
+      "profile education"
+      "skills education"
+      ". research"
+      ". hobbies" ;
+    column-gap: 2rem;
   }
 }
 
@@ -211,6 +275,7 @@ a.active .hBttn {
   grid-column: 2 / -1;
   grid-row: 1;
 }
+
 
 .resize-animation-stopper * {
   animation: none !important;
