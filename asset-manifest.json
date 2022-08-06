@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.64ddceb2.css",
-    "main.js": "/personal-page/static/js/main.50c34d86.js",
+    "main.js": "/personal-page/static/js/main.7380d0a1.js",
     "static/media/goncalo_cv.pdf": "/personal-page/static/media/goncalo_cv.7d59f584add2309e906a.pdf",
     "static/media/meRedPolo.jpg": "/personal-page/static/media/meRedPolo.50b9763796356b50b040.jpg",
     "static/media/earth.png": "/personal-page/static/media/earth.920c72a0e4672e1d27e4.png",
@@ -9,10 +9,10 @@
     "static/media/menu-burguer.svg": "/personal-page/static/media/menu-burguer.d029c681c1dacca32e9c.svg",
     "static/media/close-icon.svg": "/personal-page/static/media/close-icon.e9c92e2f218cb25a20cc.svg",
     "main.64ddceb2.css.map": "/personal-page/static/css/main.64ddceb2.css.map",
-    "main.50c34d86.js.map": "/personal-page/static/js/main.50c34d86.js.map"
+    "main.7380d0a1.js.map": "/personal-page/static/js/main.7380d0a1.js.map"
   },
   "entrypoints": [
     "static/css/main.64ddceb2.css",
-    "static/js/main.50c34d86.js"
+    "static/js/main.7380d0a1.js"
   ]
 }
