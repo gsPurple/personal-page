@@ -232,6 +232,10 @@ a.active .hBttn {
   .section-container {
     margin: 2rem 0.5rem;
   }
+
+  .ul-cv {
+    padding-left: 1rem;
+  }
 }
 
 @media screen and (min-width: 896px) {
@@ -247,7 +251,7 @@ a.active .hBttn {
 
   #grid-cv-page {
     display: grid;
-    margin: 2rem;
+    margin: 1rem;
     max-width: inherit;
     grid-auto-columns: minmax(0, 1fr);
     text-align: justify;
