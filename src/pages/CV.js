@@ -6,9 +6,8 @@ const CV = () => {
             <section className='section-container'>
                 <div id='grid-cv-page'>
                     <div id='cv-header'>
-                        Gonçalo Roxo
                         <a href={require("../files/goncalo_cv.pdf")} target="_blank" rel='noopener noreferrer'>
-                            CV
+                            <span className='hBttn'>Download CV</span>
                         </a>
                     </div>
                     <div id='cv-profile'>
