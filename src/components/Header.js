@@ -60,27 +60,27 @@ const Header = () => {
                     <nav>
                         <ul id='primary-nav' data-visible='false' className='header-nav-bttns primary-nav'>
                             <li className='active'>
-                                <NavLink to="/cv">
+                                <NavLink to="/cv" onClick={() => clickNavToggle()}>
                                     <span className='hBttn'>cv()</span>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/">
+                                <NavLink to="/" onClick={() => clickNavToggle()}>
                                     <span className='hBttn'>home()</span>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/contact">
+                                <NavLink to="/contact" onClick={() => clickNavToggle()}>
                                     <span className='hBttn'>contact()</span>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/projects">
+                                <NavLink to="/projects" onClick={() => clickNavToggle()}>
                                     <span className='hBttn'>projects()</span>
                                 </NavLink>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/gon%C3%A7alo-roxo-522168165/" target="_blank" rel='noopener noreferrer'>
+                                <a href="https://www.linkedin.com/in/gon%C3%A7alo-roxo-522168165/" target="_blank" rel='noopener noreferrer' onClick={() => clickNavToggle()}>
                                     <FontAwesomeIcon icon={faLinkedin} className='social-icon hBttn'/>
                                 </a>
                             </li>
