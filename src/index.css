@@ -189,7 +189,6 @@ a.active .hBttn {
   margin-top: 3rem;
   max-width: inherit;
   grid-auto-columns: minmax(0, 1fr);
-  text-align: justify;
   grid-template-areas:
     "header"
     "profile"
@@ -254,7 +253,6 @@ a.active .hBttn {
     margin: 1rem;
     max-width: inherit;
     grid-auto-columns: minmax(0, 1fr);
-    text-align: justify;
     grid-template-areas:
       "header header"
       "profile education"
