@@ -12,17 +12,17 @@ const CV = () => {
                     </div>
                     <div id='cv-profile'>
                         <h2 className='purp'>PROFILE</h2>
-                        I am currently finishing my master's degree in computer science. 
-                        Always open to hearing different opinions, I enjoy working in a team environment.
+                        Passionate about technology and highly motivated, I have a collaborative mindset and I'm always open to hearing different perspectives. I can adapt to new situations and like to explore them creatively.
+                        New challenges are opportunities to learn new skills.
                     </div>
                     <div id='cv-education'>
                         <h2 className='purp'>EDUCATION</h2>
-                        <h3 className='light-purp'>Master's in Computer Science and Engineering</h3>
+                        <h3 className='light-purp'>Master of Computer Science and Engineering</h3>
                         <ul className='ul-cv'>
-                            <li>NOVA School of Science and Technology (Current)</li>
-                            <li>Thesis: "Exergames as Engagement Tools for the Therapy of Children with Disabilities"</li>
+                            <li>NOVA School of Science and Technology (2023)</li>
+                            <li>Thesis: "Studying Serious Games for the Therapy of Children with Disabilities following a Co-Design Process"</li>
                         </ul>
-                        <h3 className='light-purp'>Bachelor in Science and Computer Engineering</h3>
+                        <h3 className='light-purp'>Bachelor of Science and Computer Engineering</h3>
                         <ul className='ul-cv'>
                             <li>NOVA School of Science and Technology (2020)</li>
                             <li>IGNES: a web and mobile app to help in wildfire prevention, built from the ground up with four colleagues as the final project.</li>
@@ -55,13 +55,14 @@ const CV = () => {
                         <h3 className='light-purp'>NOVA LINCS</h3>
                         <ul className='ul-cv'>
                             <li>Project: "Pervasive Framework to Support Smart Therapy of Children with Special Needs"</li>
+                            <li>Full paper: "Dance Mat Fun - A Participatory Design of Exergames for Children with Disabilities” in Springer{'\u2019'}s Pervasive Computing Technologies for Healthcare, presented at the 16th EAI International Conference of Pervasive Health</li>
                             <li>March - September (2022)</li>
                         </ul>
                     </div>
                     <div id='cv-hobbies'>
                         <h2 className='purp'>HOBBIES AND INTERESTS</h2>
                         <ul className='ul-cv'>
-                            <li>Scuba Diving {'\u2022'} Rugby {'\u2022'} 3D Modelling</li>
+                            <li>Scuba Diving {'\u2022'} 3D Printing {'\u2022'} 3D Modelling</li>
                             <li>Photography {'\u2022'} Space {'\u2022'} Nature Documentaries</li>
                         </ul>
                     </div>
