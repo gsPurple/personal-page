@@ -80,7 +80,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/gon%C3%A7alo-roxo-522168165/" target="_blank" rel='noopener noreferrer' onClick={() => clickNavToggle()}>
+                                <a href="https://www.linkedin.com/in/goncaloroxo" target="_blank" rel='noopener noreferrer' onClick={() => clickNavToggle()}>
                                     <FontAwesomeIcon icon={faLinkedin} className='social-icon hBttn'/>
                                 </a>
                             </li>

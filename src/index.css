@@ -3,6 +3,7 @@
   --purple: #682AE9;
   --light-purple: #956eeb;
   --black: #0E1212;
+  --light-black: #1a1c1c;
   --active: #595959;
 }
 
@@ -41,6 +42,10 @@ h1 {
 
 .space {
   height: 20vh;
+}
+
+.page-title {
+  margin-left: 1rem;
 }
 
 .sr-only:not(:focus):not(:active) {
@@ -301,6 +306,64 @@ textarea {
   grid-area: hobbies;
 }
 
+
+
+body {
+  margin:0px;
+}
+
+.project-dark-block {
+  background:var(--black);
+  padding-top: 10%;
+  padding-bottom: 1%;
+  color:var(--off-white);
+}
+.project-light-block {
+  background:var(--light-black);
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 1%;
+  color:var(--off-white);
+  align-items: center;
+}
+
+.linked-project-title {
+  display: block;
+  align-items: center;
+}
+
+.project-container {
+  width: 90%;
+  margin-left: 1.5rem;
+  margin-right: auto;
+  position: relative;
+}
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, var(--black) 49%, var(--light-black) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, var(--light-black) 49%, var(--black) 50%);
+}
+
+
 @media screen and (max-width: 415px) {
   .section-container {
     margin: 2rem 0.5rem;
@@ -320,6 +383,10 @@ textarea {
 
   #welcome-img {
     margin: 2rem 2rem;
+  }
+
+  .page-title {
+    margin-left: 10rem;
   }
 
   #grid-cv-page {
@@ -347,6 +414,28 @@ textarea {
       "cmessage cmessage cmessage"
       "csubmit csubmit csubmit";
     column-gap: 1rem;
+  }
+
+  .project-container {
+    margin: 2rem auto;
+    max-width: 70rem;
+  }
+
+  .linked-project-title {
+    display: flex;
+  }
+
+  .project-link {
+    margin-left: 0.5rem;
+  }
+
+  .project-dark-block {
+    padding-top: 5%;
+    padding-bottom: 1%;
+  }
+  .project-light-block {
+    padding-top: 7%;
+    padding-bottom: 1%;
   }
 }
 
