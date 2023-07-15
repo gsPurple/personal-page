@@ -15,12 +15,12 @@ body, button {
 
 @media(prefers-color-scheme: dark) {
   :root {
-    --off-white: #FAF9F6;
-    --purple: #682AE9;
-    --light-purple: #956eeb;
-    --black: #0E1212;
-    --light-black: #1a1c1c;
-    --active: #595959;
+    --off-white: #FAF9F6 !important;
+    --purple: #682AE9 !important;
+    --light-purple: #956eeb !important;
+    --black: #0E1212 !important;
+    --light-black: #1a1c1c !important;
+    --active: #595959 !important;
   }
 }
 
