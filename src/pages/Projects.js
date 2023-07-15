@@ -45,14 +45,17 @@ const Projects = () => {
 
       const handleWindowResize = () => {
         const windowWidth = window.innerWidth;
-        if (windowWidth <= 640) { // Adjust the breakpoint value to desired screen widths
-          setDivHeight(isExpanded ? '50rem' : '18rem'); 
+        if (windowWidth <= 470) { // Adjust the breakpoint value to desired screen widths
+          setDivHeight(isExpanded ? '82rem' : '18rem'); 
         }
-        else if(windowWidth > 640 && windowWidth < 1007) {
-          setDivHeight(isExpanded ? '50rem' : '17rem');
+        else if(windowWidth <= 640) {
+          setDivHeight(isExpanded ? '92rem' : '17rem');
+        }
+        else if(windowWidth > 640 && windowWidth < 896) {
+          setDivHeight(isExpanded ? '112rem' : '17rem');
         }
         else {
-          setDivHeight(isExpanded ? '85rem' : '16rem'); 
+          setDivHeight(isExpanded ? '83rem' : '16rem'); 
         }
       };
     
