@@ -46,7 +46,7 @@ const Projects = () => {
       const handleWindowResize = () => {
         const windowWidth = window.innerWidth;
         if (windowWidth <= 470) { // Adjust the breakpoint value to desired screen widths
-          setDivHeight(isExpanded ? '82rem' : '18rem'); 
+          setDivHeight(isExpanded ? '85rem' : '18rem'); 
         }
         else if(windowWidth <= 640) {
           setDivHeight(isExpanded ? '92rem' : '17rem');
