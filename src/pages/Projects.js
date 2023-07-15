@@ -16,7 +16,7 @@ const ToggleButton = ({ isExpanded, onClick, style }) => {
 const Projects = () => {
 
     const [isExpanded, setIsExpanded] = useState(false);
-    const [divHeight, setDivHeight] = useState('18rem');
+    const [divHeight, setDivHeight] = useState('16rem');
 
     const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
     const containerRef = useRef(null);
