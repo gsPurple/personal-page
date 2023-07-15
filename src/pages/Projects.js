@@ -93,7 +93,7 @@ const Projects = () => {
                         <img className="ignes-project-image" src={require("../images/ignesUser.png")} alt=""/>
                         <p>
                             If a worker logged into the mobile app using their worker account, the interface would dynamically adjust and display only the relevant geolocation 
-                            markers on the map that corresponded to the worker's assigned tasks. Dark Mode.
+                            markers on the map that corresponded to the worker's assigned tasks.
                         </p>
                         <img className="ignes-project-image" src={require("../images/ignesWorker.png")} alt=""/>
                     </div>
