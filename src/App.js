@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 import { Route, Routes } from "react-router-dom";
 
+
 function App() {
   
   return (

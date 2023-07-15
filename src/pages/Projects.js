@@ -1,19 +1,90 @@
 import React from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown, faAnglesUp } from '@fortawesome/free-solid-svg-icons';
+
+const ToggleButton = ({ isExpanded, onClick, style }) => {
+    return (
+      <button className="btn-toggle" style={style} onClick={onClick}>
+        {isExpanded ? <span><FontAwesomeIcon icon={faAnglesUp} /> Show Less <FontAwesomeIcon icon={faAnglesUp} /></span> : <span><FontAwesomeIcon icon={faAnglesDown} /> Show More <FontAwesomeIcon icon={faAnglesDown} /></span>}
+      </button>
+    );
+
+  };
+  
 
 const Projects = () => {
+
+    const [isExpanded, setIsExpanded] = useState(false);
+    const [divHeight, setDivHeight] = useState('14rem');
+
+    const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        const updateContainerSize = () => {
+          if (containerRef.current) {
+            const { width, height } = containerRef.current.getBoundingClientRect();
+            setContainerSize({ width, height });
+          }
+        };
+    
+        window.addEventListener('resize', updateContainerSize);
+        updateContainerSize();
+    
+        return () => {
+          window.removeEventListener('resize', updateContainerSize);
+        };
+      }, []);
+
+      const gradientAngle = Math.atan(containerSize.height / containerSize.width) * (180 / Math.PI);
+
+      const divStyle2 = {
+        transform: `translate(-50%, -50%) rotate(-${gradientAngle}deg)`,
+      };
+    
+      useEffect(() => {
+        setDivHeight(isExpanded ? '83rem' : '14rem');
+      }, [isExpanded]);
+
+    const handleClickBtn = () => {
+        setIsExpanded((prev) => !prev);        
+    };
+
+    const divStyle = {
+        height: divHeight, // Adjust the desired expanded height here
+        overflow: 'hidden',
+        transition: 'height 1.5s ease',
+      };
+
     return(
         <div>          
             <div className="project-dark-block">
                 <h1 className='page-title'>My Projects</h1>
-                <section className='project-container'>
+                <section className='project-container' style={divStyle}>
                     <h2>Ignes</h2>
-                    <p><i>Ignes</i>, a mobile and web application for fire prevention, that was imagined, developed, and created as a university project in 2018. 
-                    It was our first experience of developing an idea from scratch. In a team of 5 enthusiastic people, we worked hard to succeed and achieved 
-                    the goal of making it to the final presentation, leaving the audience amazed by <i>Ignes</i>.
-                    </p>
+                    <div className='project-content'>
+                        <p>
+                            <i>Ignes</i>, a mobile and web application for fire prevention, that was imagined, developed, and created as a university project in 2018. 
+                            It was our first experience of developing an idea from scratch. In a team of 5 enthusiastic people, we worked hard to succeed and achieved 
+                            the goal of making it to the final presentation, leaving the audience amazed by <i>Ignes</i>.
+                        </p>
+                        <p>
+                            The app was available in both web and mobile formats. The web client was targeted towards institutions that offered services such as cleaning 
+                            or transport, allowing them to manage their workers and assign tasks. The mobile app, developed in Android Studio, served as a platform for 
+                            regular users to report situations they believed could pose a safety risk, potentially leading to a forest fire.
+                        </p>
+                        <img className="ignes-project-image" src={require("../images/ignesUser.png")} alt=""/>
+                        <p>
+                            If a worker logged into the mobile app using their worker account, the interface would dynamically adjust and display only the relevant geolocation 
+                            markers on the map that corresponded to the worker's assigned tasks.
+                        </p>
+                        <img className="ignes-project-image" src={require("../images/ignesWorker.png")} alt=""/>
+                    </div>
                 </section>
+                
             </div>
-            <div className="skew-cc"></div>
+            <div ref={containerRef} className='skew-cc'><ToggleButton style={divStyle2} isExpanded={isExpanded} onClick={handleClickBtn}/></div>
             <div className="project-light-block">
                 <section className='project-container'>
                     <div className='linked-project-title'>

@@ -321,7 +321,7 @@ body {
 .project-light-block {
   background:var(--light-black);
   width: 100%;
-  padding-top: 20%;
+  padding-top: 1%;
   padding-bottom: 1%;
   color:var(--off-white);
   align-items: center;
@@ -339,6 +339,10 @@ body {
   position: relative;
 }
 
+.btn-toggle {
+  margin-top: 4px;
+}
+
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
@@ -346,9 +350,22 @@ body {
 .skew-cc{
   width:100%;
   height:100px;
-  position:absolute;
+  position:relative;
   left:0px;
-  background: linear-gradient(to right bottom, var(--black) 49%, var(--light-black) 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom, var(--black) 49%, var(--light-black) 50%),    linear-gradient(-45deg, #ffffff 16px, #000 0);
+  overflow: hidden;
+}
+
+.btn-toggle {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  /* Added rotation transform inline */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  background-color: #ffffff00; /* Button background color */
+  color: var(--off-white); /* Button text color */
+  border: none;
 }
 
 
@@ -361,6 +378,10 @@ body {
   position:absolute;
   left:0px;
   background: linear-gradient(to left bottom, var(--light-black) 49%, var(--black) 50%);
+}
+
+.ignes-project-image {
+  width: 100%;
 }
 
 
@@ -434,8 +455,18 @@ body {
     padding-bottom: 1%;
   }
   .project-light-block {
-    padding-top: 7%;
+    padding-top: 1%;
     padding-bottom: 1%;
+  }
+
+  .ignes-project-image {
+    width: 50%;
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
