@@ -16,7 +16,7 @@ const ToggleButton = ({ isExpanded, onClick, style }) => {
 const Projects = () => {
 
     const [isExpanded, setIsExpanded] = useState(false);
-    const [divHeight, setDivHeight] = useState('14rem');
+    const [divHeight, setDivHeight] = useState('18rem');
 
     const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
     const containerRef = useRef(null);
@@ -42,9 +42,25 @@ const Projects = () => {
       const divStyle2 = {
         transform: `translate(-50%, -50%) rotate(-${gradientAngle}deg)`,
       };
+
+      const handleWindowResize = () => {
+        const windowWidth = window.innerWidth;
+        if (windowWidth <= 640) { // Adjust the breakpoint value to desired screen widths
+          setDivHeight(isExpanded ? '50rem' : '18rem'); 
+        }
+        else if(windowWidth > 640 && windowWidth < 1007) {
+          setDivHeight(isExpanded ? '50rem' : '17rem');
+        }
+        else {
+          setDivHeight(isExpanded ? '85rem' : '16rem'); 
+        }
+      };
     
       useEffect(() => {
-        setDivHeight(isExpanded ? '83rem' : '14rem');
+        handleWindowResize();
+        window.addEventListener('resize', handleWindowResize);
+        return () => window.removeEventListener('resize', handleWindowResize);
+        //setDivHeight(isExpanded ? '85rem' : '18rem');
       }, [isExpanded]);
 
     const handleClickBtn = () => {
