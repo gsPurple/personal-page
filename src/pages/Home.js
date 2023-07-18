@@ -11,7 +11,7 @@ const Home = () => {
                 <div id='intro-text'>
                     <h1>Hello, world!</h1>
                     I'm Gonçalo <span className='light-purp'>Roxo</span>, welcome to my corner of the internet.
-                    I'm currently looking for new opportunities to develop my skills! sjfhsdkjfhdjk
+                    I'm currently looking for new opportunities to develop my skills!
                     <p>Stay awhile and get to know me!</p>
                 </div>
                 {/*<a href="https://www.freepik.com/vectors/geography">Geography vector created by brgfx - www.freepik.com</a>*/}
