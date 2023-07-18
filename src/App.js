@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <Header/>
       <Routes>
-        <Route path='/react-cv' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/cv' element={<CV />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
