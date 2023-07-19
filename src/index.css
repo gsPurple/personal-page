@@ -192,6 +192,30 @@ a.active .hBttn {
   margin: 2rem 2rem;
 }
 
+.tooltip {
+  position: relative;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 20rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -260%;
+  left: 110%;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 #welcome-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

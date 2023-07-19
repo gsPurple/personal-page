@@ -10,7 +10,7 @@ const Home = () => {
                 </div>
                 <div id='intro-text'>
                     <h1>Hello, world!</h1>
-                    I'm Gonçalo <span className='light-purp'>Roxo</span>, welcome to my corner of the internet.
+                    I'm Gonçalo <span className='light-purp tooltip'>Roxo<div className='tooltiptext'>My last name means purple in Portuguese!</div></span>, welcome to my corner of the internet.
                     I'm currently looking for new opportunities to develop my skills!
                     <p>Stay awhile and get to know me!</p>
                 </div>
