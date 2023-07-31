@@ -199,7 +199,7 @@ a.active .hBttn {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 20rem;
+  width: 16rem;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -208,7 +208,6 @@ a.active .hBttn {
   position: absolute;
   z-index: 1;
   top: -260%;
-  left: 110%;
 }
 
 
