@@ -28,10 +28,10 @@ const Contact = () => {
                                 <p>Feel free to shoot me a message and I'll get back to you as soon as I can!</p>
                             </div>
                             <div id='contact-form-name'>
-                                <input id="name" classname='formtext' type='text' placeholder='Name' name='from_name' required aria-required="true"/>
+                                <input id="name" className='formtext' type='text' placeholder='Name' name='from_name' required aria-required="true"/>
                             </div>
                             <div id='contact-form-email'>
-                                <input classname='formtext' type='email' placeholder='Email' name='from_email' required aria-required="true"/>
+                                <input className='formtext' type='email' placeholder='Email' name='from_email' required aria-required="true"/>
                             </div>
                             <div id='contact-form-message'>
                                 <textarea cols='30' rows='8' placeholder='Your Message' name='message'/>

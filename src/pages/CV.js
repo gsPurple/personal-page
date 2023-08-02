@@ -30,7 +30,6 @@ const CV = () => {
                         <h3 className='light-purp'>Erasmus+ Program</h3>
                         <ul className='ul-cv'>
                             <li>Comenius University Bratislava - Slovakia</li>
-                            <li>1st Semester (2018/2019)</li>
                         </ul>
                         <h3 className='light-purp'>Science and Technology - Secondary Education</h3>
                         <ul className='ul-cv'>
@@ -55,7 +54,8 @@ const CV = () => {
                         <h3 className='light-purp'>NOVA LINCS</h3>
                         <ul className='ul-cv'>
                             <li>Project: "Pervasive Framework to Support Smart Therapy of Children with Special Needs"</li>
-                            <li>Full paper: "Dance Mat Fun - A Participatory Design of Exergames for Children with Disabilities” in Springer{'\u2019'}s Pervasive Computing Technologies for Healthcare, presented at the 16th EAI International Conference of Pervasive Health</li>
+                            <li>Full paper: "Dance Mat Fun - A Participatory Design of Exergames for Children with Disabilities” in Springer{'\u2019'}s Pervasive Computing Technologies for Healthcare, 
+                            presented at the <a href="https://pervasivehealth.eai-conferences.org/2022/" target="_blank" rel='noopener noreferrer'>16th EAI International Conference of Pervasive Health</a></li>
                             <li>March - September (2022)</li>
                         </ul>
                     </div>

@@ -16,9 +16,17 @@ const Home = () => {
                 </div>
                 {/*<a href="https://www.freepik.com/vectors/geography">Geography vector created by brgfx - www.freepik.com</a>*/}
             </section>
-            <div className='space'></div>
+            
             <section className='section-container'>
-                I'm interested in all things science and am currently finishing my MSc in Computer Science and Engineering.
+                <div className='shjs'>
+                    <p>During my Master's degree, my work was mainly focused on the Human-Computer Interaction area. We were studying the use of videogames as a complement to traditional therapy using off-the-shelf controllers like the Wii Balance Board
+                    and a Dance Mat, and managed to publish a research paper with part of that work. I'm a tech and science enthusiast, with a particular interest in front-end and mobile development, but open to discovering new passions.</p>
+                
+                    <p>Beyond the digital realm, I enjoy scuba diving, 3D printing, photography, and exploring the wonders of space and nature through documentaries.
+                    With a collaborative mindset and an eagerness to learn, I like to feel part of a team where we can build cool stuff together.</p>
+
+                    <p>Fun fact: My face went on one of the last Space Shuttle flights and my name has gone as far as Mars on other community events for NASA missions.</p>
+                </div>
             </section>
         </div>
     )
