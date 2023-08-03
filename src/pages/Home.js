@@ -18,7 +18,7 @@ const Home = () => {
             </section>
             
             <section className='section-container'>
-                <div className='shjs'>
+                <div className='body-text'>
                     <p>During my Master's degree, my work was mainly focused on the Human-Computer Interaction area. We were studying the use of videogames as a complement to traditional therapy using off-the-shelf controllers like the Wii Balance Board
                     and a Dance Mat, and managed to publish a research paper with part of that work. I'm a tech and science enthusiast, with a particular interest in front-end and mobile development, but open to discovering new passions.</p>
                 
