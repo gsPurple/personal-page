@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.29bf7b66.css",
-    "main.js": "/static/js/main.b84295f2.js",
+    "main.css": "/static/css/main.56243045.css",
+    "main.js": "/static/js/main.3038eaa5.js",
     "static/media/ignesUser.png": "/static/media/ignesUser.70f814c0f20479547313.png",
     "static/media/ignesWorker.png": "/static/media/ignesWorker.32af8928b33fcfd008cd.png",
+    "static/media/faceInSpaceM.jpg": "/static/media/faceInSpaceM.896af16fd834e301e30e.jpg",
+    "static/media/meetingClinic.jpeg": "/static/media/meetingClinic.0a969bd8f67e0d34e84f.jpeg",
     "static/media/goncalo_cv.pdf": "/static/media/goncalo_cv.a56d1b484e0baefd9143.pdf",
     "static/media/meRedPolo.jpg": "/static/media/meRedPolo.50b9763796356b50b040.jpg",
     "static/media/earth.png": "/static/media/earth.920c72a0e4672e1d27e4.png",
     "index.html": "/index.html",
     "static/media/menu-burguer.svg": "/static/media/menu-burguer.d029c681c1dacca32e9c.svg",
     "static/media/close-icon.svg": "/static/media/close-icon.e9c92e2f218cb25a20cc.svg",
-    "main.29bf7b66.css.map": "/static/css/main.29bf7b66.css.map",
-    "main.b84295f2.js.map": "/static/js/main.b84295f2.js.map"
+    "main.56243045.css.map": "/static/css/main.56243045.css.map",
+    "main.3038eaa5.js.map": "/static/js/main.3038eaa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.29bf7b66.css",
-    "static/js/main.b84295f2.js"
+    "static/css/main.56243045.css",
+    "static/js/main.3038eaa5.js"
   ]
 }
