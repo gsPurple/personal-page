@@ -19,14 +19,33 @@ const Home = () => {
             
             <section className='section-container'>
                 <div className='body-text'>
-                    <p>During my Master's degree, my work was mainly focused on the Human-Computer Interaction area. We were studying the use of videogames as a complement to traditional therapy using off-the-shelf controllers like the Wii Balance Board
-                    and a Dance Mat, and managed to publish a research paper with part of that work. I'm a tech and science enthusiast, with a particular interest in front-end and mobile development, but open to discovering new passions.</p>
-                
-                    <p>Beyond the digital realm, I enjoy scuba diving, 3D printing, photography, and exploring the wonders of space and nature through documentaries.
-                    With a collaborative mindset and an eagerness to learn, I like to feel part of a team where we can build cool stuff together.</p>
+                    <div className='text-and-image-container'>
+                        <p>
+                            During my Master's degree, my work was mainly focused on the <span className='blue'>Human-Computer Interaction</span> area. We were studying the use of videogames as a complement to traditional therapy using off-the-shelf controllers like the Wii Balance Board
+                            and a Dance Mat, and managed to publish a research paper with part of that work.
+                        </p>
+                        <div className='image-container'>
+                            <img className="image-float-right" src={require("../images/meetingClinic.jpeg")} alt=""/>
+                        </div>
+                    </div>
 
-                    <p>Fun fact: My face went on one of the last Space Shuttle flights and my name has gone as far as Mars on other community events for NASA missions.</p>
+                    <div className='text-and-image-container'>
+                        <p>
+                            Beyond the digital realm, I enjoy scuba diving, <span className='yllw'>3D printing</span>, photography, and exploring the wonders of nature and space.
+                            With a <span className='green'>collaborative mindset</span> and an eagerness to learn, I like to feel part of a team where we can build cool stuff together.
+                        </p>
+                        <p>
+                            I'm a tech and science enthusiast, with a particular interest in <span className='peach'>front-end</span> and <span className='peach'>mobile</span> development, but open to discovering new passions.
+                        </p>
+
+                        <div className='image-container'>
+                            <img className="image-float-left" src={require("../images/faceInSpaceM.jpg")} alt=""/>
+                        </div>
+                    </div>
+                    
+                    <p id='push-down'>Fun fact: My face went on one of the last Space Shuttle flights and my name has gone as far as Mars on other community events for NASA missions.</p>
                 </div>
+                <div className='space'></div>
             </section>
         </div>
     )

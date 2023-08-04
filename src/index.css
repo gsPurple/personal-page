@@ -5,6 +5,10 @@
   --black: #0E1212;
   --light-black: #1a1c1c;
   --active: #595959;
+  --blue: #4477CE;
+  --yellow: #F0EB8D;
+  --green: #9AE66E;
+  --peach: #F67E7D;
 }
 
 body, button {
@@ -21,6 +25,10 @@ body, button {
     --black: #0E1212 !important;
     --light-black: #1a1c1c !important;
     --active: #595959 !important;
+    --blue: #4477CE;
+    --yellow: #F0EB8D;
+    --green: #9AE66E;
+    --peach: #F67E7D;
   }
 }
 
@@ -52,7 +60,7 @@ h1 {
 }
 
 .space {
-  height: 20vh;
+  height: 1rem;
 }
 
 .page-title {
@@ -91,6 +99,22 @@ h1 {
 
 .light-purp {
   color: var(--light-purple);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.yllw {
+  color: var(--yellow);
+}
+
+.green {
+  color: var(--green);
+}
+
+.peach {
+  color: var(--peach);
 }
 
 .header-nav-bttns {
@@ -377,10 +401,22 @@ body {
   margin-top: 4px;
 }
 
-.body-text {
-  margin-bottom: 2rem;
+.image-float-right {
+  max-width: 20rem;
+  border-radius: 4%;
+  margin: 0 auto;
 }
 
+.image-container {
+  
+  text-align: center;
+}
+
+.image-float-left {
+  max-width: 20rem;
+  border-radius: 4%;
+  margin: 0 auto;
+}
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
@@ -510,6 +546,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .image-float-right {
+    max-width: 20rem;
+    float: right;
+    border-radius: 4%;
+    margin-left: 1rem;
+  }
+
+  .image-float-left {
+    max-width: 20rem;
+    float: left;
+    border-radius: 4%;
+    margin-right: 1rem;
+  }
+
+  #push-down {
+    margin-top: 14rem;
   }
 }
 
