@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const [showPopup, setShowPopup] = useState(false);
+    const [popupText, setPopupText] = useState('');
 
     function sendEmail(e) {
         e.preventDefault();
@@ -9,9 +12,13 @@ const Contact = () => {
         emailjs.sendForm('service_z9sqa2r', 'template_5px9huj', e.target, 'mcR_hlPGRmm3UqM0T')
         .then((result) => {
             console.log(result.text);
+            setPopupText('Your message has been sent successfully!');
         }, (error) => {
+            setPopupText('There was an error sending your message. Please try again.');
             console.log(error.text);
         });
+
+        setShowPopup(true);
 
         e.target.reset();
     }
@@ -43,6 +50,14 @@ const Contact = () => {
                     </form>
                 </div>
             </section>
+            {showPopup && (
+            <div className="popup">
+                <div className="popup-content">
+                    <p>{popupText}</p>
+                    <button onClick={() => setShowPopup(false)}>Close</button>
+                </div>
+            </div>
+            )}
         </div>
     )
 }
