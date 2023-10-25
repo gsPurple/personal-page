@@ -8,6 +8,7 @@
   --blue: #4477CE;
   --yellow: #F0EB8D;
   --green: #9AE66E;
+  --android-green: #3DDC84;
   --peach: #F67E7D;
 }
 
@@ -28,6 +29,7 @@ body, button {
     --blue: #4477CE;
     --yellow: #F0EB8D;
     --green: #9AE66E;
+    --android-green: #3DDC84;
     --peach: #F67E7D;
   }
 }
@@ -111,6 +113,10 @@ h1 {
 
 .green {
   color: var(--green);
+}
+
+.android-green {
+  color: var(--android-green);
 }
 
 .peach {
