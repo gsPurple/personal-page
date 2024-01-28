@@ -15,6 +15,14 @@ const CV = () => {
                         Passionate about technology and highly motivated, I have a collaborative mindset and I'm always open to hearing different perspectives. I can adapt to new situations and like to explore them creatively.
                         New challenges are opportunities to learn new skills.
                     </div>
+                    <div id='cv-experience'>
+                        <h2 className='purp'>WORK EXPERIENCE</h2>
+                        <h3 className='light-purp'>Capgemini Engineering</h3>
+                        <ul className='ul-cv'>
+                            <li>Associate Engineer: Developing and adapting automation tests for the UI of TV software in Python.</li>
+                            <li>October 2023 - Present</li>
+                        </ul>
+                    </div>
                     <div id='cv-education'>
                         <h2 className='purp'>EDUCATION</h2>
                         <h3 className='light-purp'>Master of Computer Science and Engineering</h3>
@@ -31,10 +39,6 @@ const CV = () => {
                         <ul className='ul-cv'>
                             <li>Comenius University Bratislava - Slovakia</li>
                         </ul>
-                        <h3 className='light-purp'>Science and Technology - Secondary Education</h3>
-                        <ul className='ul-cv'>
-                            <li>Escola Secundária Professor José Augusto Lucas</li>
-                        </ul>
                     </div>
                     <div id='cv-skills'>
                         <h2 className='purp'>SKILLS</h2>
@@ -47,6 +51,7 @@ const CV = () => {
                         <ul className='ul-cv'>
                             <li>Javascript {'\u2022'} HTML {'\u2022'} CSS {'\u2022'} React</li>
                             <li>Unity {'\u2022'} C# {'\u2022'} JAVA {'\u2022'} Android Studio</li>
+                            <li>Python</li>
                         </ul>
                     </div>
                     <div id='cv-scholarship'>
