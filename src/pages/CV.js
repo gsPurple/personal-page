@@ -6,21 +6,33 @@ const CV = () => {
             <section className='section-container'>
                 <div id='grid-cv-page'>
                     <div id='cv-header'>
-                        <a href={require("../files/goncalo_cv.pdf")} target="_blank" rel='noopener noreferrer'>
-                            <span className='hBttn'>Download CV</span>
-                        </a>
+                    <a
+                        href={require("../files/CV_Private.pdf")}
+                        download="goncalo_roxo_cv.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="hBttn">Download CV</span>
+                    </a>
                     </div>
                     <div id='cv-profile'>
                         <h2 className='purp'>PROFILE</h2>
-                        Passionate about technology and highly motivated, I have a collaborative mindset and I'm always open to hearing different perspectives. I can adapt to new situations and like to explore them creatively.
-                        New challenges are opportunities to learn new skills.
+                        Passionate about technology and highly motivated, with a strong collaborativemindset and openness to different perspectives. 
+                        Enthusiastic and adaptablecomputer engineer with experience in test automation, generative AI tools, andcross-functional teamwork. 
+                        Quick to learn and eager to explore new challengescreatively, always seeing them as opportunities to grow and acquire new skills. 
+                        I thrive in dynamic environments and enjoy solving real-world problems throughthoughtful, user-centered solutions.
                     </div>
                     <div id='cv-experience'>
                         <h2 className='purp'>WORK EXPERIENCE</h2>
-                        <h3 className='light-purp'>Capgemini Engineering</h3>
+                        <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            <h3 className='light-purp'>Associate Engineer</h3> <h3 className='blue'>@ Capgemini Engineering</h3>
+                        </div>
                         <ul className='ul-cv'>
-                            <li>Associate Engineer: Developing and adapting automation tests for the UI of TV software in Python.</li>
-                            <li>October 2023 - Present</li>
+                            <li>Developed <span className='yllw'>Python</span> scripts to automate sanity testing of set-top box (STB) user interfaces and functionality</li>
+                            <li>Refactored existing codebase for improved maintainability and scalability</li>
+                            <li>Contributed to the creation of internal tools integrating <span className='blue'>generative AI</span> service APIs</li>
+                            <li>Collaborated with cross-functional teams across different countries to define optimal automation strategies</li>
+                            <li><span className='peach'>October 2023</span> - <span className='green'>Present</span></li>
                         </ul>
                     </div>
                     <div id='cv-education'>
@@ -33,7 +45,8 @@ const CV = () => {
                         <h3 className='light-purp'>Bachelor of Science and Computer Engineering</h3>
                         <ul className='ul-cv'>
                             <li>NOVA School of Science and Technology (2020)</li>
-                            <li>IGNES: a web and mobile app to help in wildfire prevention, built from the ground up with four colleagues as the final project.</li>
+                            <li>IGNES: a web and mobile app to help in wildfire prevention, built with from scratch with four other colleagues.</li>
+                            <li>Tools & Technologies: Android Studio, Google App Engine, HTML, JS and CSS</li>
                         </ul>
                         <h3 className='light-purp'>Erasmus+ Program</h3>
                         <ul className='ul-cv'>
@@ -49,7 +62,7 @@ const CV = () => {
                         </ul>
                         <h3 className='light-purp'>Programming</h3>
                         <ul className='ul-cv'>
-                            <li>Javascript {'\u2022'} HTML {'\u2022'} CSS {'\u2022'} React</li>
+                            <li>Javascript {'\u2022'} HTML {'\u2022'} CSS {'\u2022'} ReactJS</li>
                             <li>Unity {'\u2022'} C# {'\u2022'} JAVA {'\u2022'} Android Studio</li>
                             <li>Python</li>
                         </ul>
